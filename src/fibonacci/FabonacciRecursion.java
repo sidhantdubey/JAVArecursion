@@ -2,6 +2,9 @@ package fibonacci;
 
 import java.util.Scanner;
 
+/**
+ * @author YASH kUMAR SINGH
+ */
 public class FabonacciRecursion {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
