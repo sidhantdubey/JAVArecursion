@@ -16,7 +16,7 @@ public class FabonacciRecursion {
 
     public static int fabonacci(int a, int b, int number) {
         System.out.print(a + " ");
-        if (number == 0) {
+        if (number == 1) {
             return (b);
         } else {
             return fabonacci(a + b, a, number - 1);
