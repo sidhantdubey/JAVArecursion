@@ -14,12 +14,12 @@ public class FabonacciRecursion {
         fabonacci(a, b, number);
     }
 
-    public static int fabonacci(int a, int b, int number) {
+    public static void fabonacci(int a, int b, int number) {
         System.out.print(a + " ");
         if (number == 1) {
-            return (b);
+            //do nothing and stop recursion fabonacci numbers generated
         } else {
-            return fabonacci(a + b, a, number - 1);
+            fabonacci(a + b, a, number - 1);
         }
     }
 }
