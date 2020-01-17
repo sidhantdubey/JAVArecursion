@@ -5,7 +5,7 @@ import java.util.Scanner;
 /**
  * program to calculate factorial using recursive call
  */
-public class Factorial {
+public class FactorialRecursion {
     /**
      * main method
      *
