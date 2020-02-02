@@ -1,7 +1,5 @@
 package fibonacci;
-
 import java.util.Scanner;
-
 /**
  * @author YASH kUMAR SINGH
  */
@@ -20,6 +18,7 @@ public class FabonacciRecursion {
     }
 
     /**
+     * System.out.print(a + " ");
      * this function recursively calls itself  and prints fabonacci series
      *
      * @param a      first number is sequence
@@ -32,6 +31,7 @@ public class FabonacciRecursion {
             //do nothing and stop recursion fabonacci numbers generated
         } else {
             fabonacci(a + b, a, number - 1);
+//            fabonacci(b,a+b,number-1);
         }
     }
 }
