@@ -30,8 +30,8 @@ public class FabonacciRecursion {
         if (number == 1) {
             //do nothing and stop recursion fabonacci numbers generated
         } else {
-            fabonacci(a + b, a, number - 1);
-//            fabonacci(b,a+b,number-1);
+//            fabonacci(a + b, a, number - 1);
+            fabonacci(b, a + b, number - 1);
         }
     }
 }
